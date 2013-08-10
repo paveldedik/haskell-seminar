@@ -1,0 +1,12 @@
+Name:                   Polynome
+Version:                1.0
+Description:            Library for managing polynomials
+License:                MIT licence
+Author:                 Pavel Dedik
+Maintainer:             374262@mail.muni.cz
+Build-Type:             Simple
+Cabal-Version:          >= 1.4
+
+Library
+    Build-depends:      base
+    Exposed-modules:    Polynome
