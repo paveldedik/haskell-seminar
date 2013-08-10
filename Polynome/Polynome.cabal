@@ -10,3 +10,4 @@ Cabal-Version:          >= 1.4
 Library
     Build-depends:      base
     Exposed-modules:    Polynome
+

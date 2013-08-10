@@ -73,3 +73,4 @@ result :: (Num a, Ord b) => [(a,b)] -- ^ List of pairs
                          -> [a]     -- ^ List of values
 result [] = []
 result s = map (foldl (\x y -> x + fst y) 0) (groupBy (\x y -> snd x == snd y) (sortBy (\x y -> snd x `compare` snd y) s))
+
